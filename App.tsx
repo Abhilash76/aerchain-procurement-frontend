@@ -41,7 +41,7 @@ import {
 
 /** FastAPI analysis server base (no trailing slash). In Docker, nginx serves under /api/analysis/. */
 const ANALYSIS_SERVER =
-  import.meta.env.VITE_ANALYSIS_SERVER ?? 'http://localhost:8765';
+  import.meta.env.VITE_ANALYSIS_SERVER ?? 'https://abhilash6944-aerchain-procuremnt.hf.space/';
 /** Ollama /api/chat URL. In Docker, use /api/ollama/api/chat (same-origin via nginx). */
 const OLLAMA_CHAT_URL =
   import.meta.env.VITE_OLLAMA_CHAT_URL ?? 'http://localhost:11434/api/chat';
